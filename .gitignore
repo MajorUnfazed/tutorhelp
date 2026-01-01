@@ -65,5 +65,12 @@ node_modules/
 # dotenv environment variables file
 .env
 
+# Build output
+dist/
+
+# Service account keys (for scripts)
+scripts/serviceAccount.json
+scripts/serviceAccount.*.json
+
 # dataconnect generated files
 .dataconnect
